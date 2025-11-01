@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolveForce Logos & Brand Assets - Telecommunications Company</title>
+    <meta name="description" content="Official SolveForce brand assets, logos, and telecommunications company identity guidelines.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .header-content nav {
+            justify-self: end;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .header-phone {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #667eea;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .header-phone:hover {
+            color: #764ba2;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #667eea;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .content {
+            background: white;
+            padding: 4rem 2rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 4rem;
+        }
+
+        .about {
+            background: rgba(102, 126, 234, 0.05);
+            padding: 3rem;
+            border-radius: 15px;
+            margin-bottom: 3rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .logos-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .logo-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .logo-card:hover {
+            border-color: #667eea;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        .logo-preview {
+            background: #f5f5f5;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .brand-colors {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .color-swatch {
+            text-align: center;
+        }
+
+        .color-box {
+            height: 150px;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .color-info {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .usage-guidelines {
+            background: rgba(102, 126, 234, 0.05);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 2rem;
+        }
+
+        .usage-guidelines h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .usage-guidelines ul {
+            list-style-position: inside;
+            color: #666;
+        }
+
+        .usage-guidelines li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .contact-info a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        @media (max-width: 968px) {
+            .header-content {
+                grid-template-columns: auto;
+                justify-items: center;
+                gap: 1rem;
+            }
+            
+            .header-content nav {
+                justify-self: center;
+            }
+            
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav a {
+                margin: 0.5rem 1rem;
+            }
+
+            .logos-grid,
+            .brand-colors {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .logos-grid,
+            .brand-colors {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">🎨 SolveForce Logos</a>
+            <a href="tel:+18887658301" class="header-phone">📞 (888) 765-8301</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#logos">Logos</a>
+                <a href="#colors">Brand Colors</a>
+                <a href="#guidelines">Guidelines</a>
+                <a href="https://portal.solveforce.com">Portal</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>SolveForce Brand Assets</h1>
+        <p>Official logos and brand guidelines for the nation's leading telecommunications provider</p>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <div class="about">
+                <h2>About SolveForce</h2>
+                <p><strong>SolveForce is America's premier telecommunications and technology solutions provider</strong>, connecting businesses across all 50 states with enterprise-grade connectivity, cloud services, cybersecurity, and advanced telecommunications infrastructure.</p>
+                <p>Since our founding, we've been committed to delivering carrier-grade fiber internet, MPLS networks, SD-WAN solutions, unified communications, and comprehensive IT services to Fortune 500 companies, government agencies, healthcare organizations, and businesses of all sizes.</p>
+                <p>Our nationwide network of partnerships with tier-1 carriers enables us to provide unmatched coverage, redundancy, and service level agreements. From dedicated fiber internet access (DIA) and SIP trunking to cloud computing and AI-powered automation, SolveForce delivers the complete technology stack modern enterprises require.</p>
+            </div>
+
+            <div class="section" id="logos">
+                <h2>Logo Downloads</h2>
+                <div class="logos-grid">
+                    <div class="logo-card">
+                        <div class="logo-preview">
+                            <h2 style="color: #667eea; font-size: 2rem;">🌐 SolveForce</h2>
+                        </div>
+                        <h3>Primary Logo (PNG)</h3>
+                        <p>Full color logo for light backgrounds</p>
+                        <a href="SolveForce-Logo-Primary.png" class="download-btn" download>⬇️ Download PNG</a>
+                    </div>
+
+                    <div class="logo-card">
+                        <div class="logo-preview" style="background: #333;">
+                            <h2 style="color: white; font-size: 2rem;">🌐 SolveForce</h2>
+                        </div>
+                        <h3>White Logo (PNG)</h3>
+                        <p>White logo for dark backgrounds</p>
+                        <a href="SolveForce-Logo-White.png" class="download-btn" download>⬇️ Download PNG</a>
+                    </div>
+
+                    <div class="logo-card">
+                        <div class="logo-preview">
+                            <h2 style="color: #667eea; font-size: 2rem;">🌐 SolveForce</h2>
+                        </div>
+                        <h3>Vector Logo (SVG)</h3>
+                        <p>Scalable vector format</p>
+                        <a href="SolveForce-Logo.svg" class="download-btn" download>⬇️ Download SVG</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="colors">
+                <h2>Brand Colors</h2>
+                <div class="brand-colors">
+                    <div class="color-swatch">
+                        <div class="color-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                        <div class="color-info">
+                            <p>Primary Gradient</p>
+                            <p>#667eea → #764ba2</p>
+                        </div>
+                    </div>
+                    <div class="color-swatch">
+                        <div class="color-box" style="background: #667eea;"></div>
+                        <div class="color-info">
+                            <p>Primary Blue</p>
+                            <p>#667eea</p>
+                            <p>RGB: 102, 126, 234</p>
+                        </div>
+                    </div>
+                    <div class="color-swatch">
+                        <div class="color-box" style="background: #764ba2;"></div>
+                        <div class="color-info">
+                            <p>Primary Purple</p>
+                            <p>#764ba2</p>
+                            <p>RGB: 118, 75, 162</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section" id="guidelines">
+                <h2>Usage Guidelines</h2>
+                <div class="usage-guidelines">
+                    <h3>✅ Do:</h3>
+                    <ul>
+                        <li>Use official logo files from this page</li>
+                        <li>Maintain adequate clear space around the logo</li>
+                        <li>Use white logo on dark backgrounds</li>
+                        <li>Scale proportionally (maintain aspect ratio)</li>
+                        <li>Use approved brand colors</li>
+                    </ul>
+                </div>
+                <div class="usage-guidelines" style="margin-top: 1rem;">
+                    <h3>❌ Don't:</h3>
+                    <ul>
+                        <li>Alter colors, proportions, or design elements</li>
+                        <li>Add effects, shadows, or outlines</li>
+                        <li>Rotate or distort the logo</li>
+                        <li>Place logo on busy or low-contrast backgrounds</li>
+                        <li>Recreate or redraw the logo</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Our Telecommunications Services</h2>
+                <div class="logos-grid">
+                    <div class="logo-card">
+                        <h3>🌐 Fiber Internet</h3>
+                        <p>Dedicated Internet Access (DIA) with symmetrical speeds up to 100 Gbps and 99.99% uptime SLA</p>
+                    </div>
+                    <div class="logo-card">
+                        <h3>📞 Business Phone</h3>
+                        <p>SIP trunking, hosted PBX, UCaaS, and enterprise telephony solutions</p>
+                    </div>
+                    <div class="logo-card">
+                        <h3>☁️ Cloud Services</h3>
+                        <p>Multi-cloud management, private cloud, and hybrid infrastructure</p>
+                    </div>
+                    <div class="logo-card">
+                        <h3>🔒 Cybersecurity</h3>
+                        <p>Zero-trust architecture, SIEM, SOC services, and compliance solutions</p>
+                    </div>
+                    <div class="logo-card">
+                        <h3>🖧 MPLS & SD-WAN</h3>
+                        <p>Private networks and software-defined wide area networking</p>
+                    </div>
+                    <div class="logo-card">
+                        <h3>🤖 AI & Automation</h3>
+                        <p>Machine learning, predictive analytics, and process automation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Questions about using SolveForce branding?</h3>
+        <p style="margin: 1rem 0;">Contact our marketing team for assistance</p>
+        <div class="contact-info">
+            <a href="tel:+18887658301">📞 (888) 765-8301</a>
+            <a href="mailto:marketing@solveforce.com">📧 marketing@solveforce.com</a>
+            <a href="https://portal.solveforce.com">🌐 Portal</a>
+            <a href="https://solveforceapp.github.io/SolveForce.com/">📖 Documentation</a>
+        </div>
+        <p style="margin-top: 2rem;">&copy; 2025 SolveForce. All rights reserved.</p>
+    </footer>
+</body>
+</html>
